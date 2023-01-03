@@ -1,6 +1,11 @@
 body {
   margin: 0;
-  background-image: linear-gradient(rgba(103, 36, 115, 0.7), rgba(103, 36, 115, 0.7)), url('/public/seamless.jpg');
+  background-image: linear-gradient(
+      rgba(104, 37, 116, .35),
+      rgba(104, 37, 116, .85)
+    ),
+    url("/public/seamless.jpg");
+  /* background-image: url('/public/seamless.jpg'); linear-gradient(rgba(103, 36, 115, 0.5), rgba(103, 36, 115, 0.5)), */
   background-color: #672473;
   color: #ffd6a2;
   text-align: center;
@@ -41,4 +46,8 @@ button {
 
 .container {
   background-color: hsla(291, 52%, 30%,.75);
+}
+
+li {
+  list-style: none;
 }
