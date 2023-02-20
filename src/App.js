@@ -4,9 +4,8 @@ import { tracks } from  './tracks';
 
 function App() {
   return (
-      <div className="my-5 rounded-3">
-        <div className="row p-4 pe-lg-0 pt-lg-5 align-items-center">
-          <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
+      <div className="d-flex row p-4 pe-lg-0 pt-lg-5 justify-items-center align-items-center">
+          <div className="row-lg-7 p-3 p-lg-5 pt-lg-3">
             <h1 className="display-4 fw-bold lh-1">Blackberry Wine by Joanne Harris</h1>
             <br></br>
             <p className="lead">Welcome to the magical world of Pog Hill and Lansquenet-sous-Tannes!</p>
@@ -20,8 +19,8 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="col-lg-4 offset-lg-1 p-4 overflow-hidden rounded-3" >
-            <img src="/34229055.jpg" className="img-fluid rounded-3 mb-4" alt="book cover" width={700} height={500} loading="lazy" />
+          <div className="row-lg-4 p-4 overflow-hidden rounded-3" >
+            <img src="/34229055.jpg" className="img-fluid rounded-3 mb-4" alt="book cover" width={350} loading="lazy" />
             <AudioPlayer tracks={tracks} />
           </div>
           <div id="list" className='opaque' style={{display: 'block'}}>
@@ -32,8 +31,6 @@ function App() {
               )
             }))}
           </div>
-        </div>
-        
       </div>
   );
 }
