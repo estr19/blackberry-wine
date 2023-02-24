@@ -4,7 +4,7 @@ import { tracks } from  './tracks';
 
 function App() {
   return (
-      <div className="d-flex row p-4 pe-lg-0 pt-lg-5 justify-items-center align-items-center">
+      <div className="d-flex row m-0 p-4 pe-lg-0 pt-lg-5 justify-items-center align-items-center">
           <div className="d-flex flex-column align-items-center p-3 p-lg-5 pt-lg-3">
             <h1 className="display-4 fw-bold lh-1 opaque">Blackberry Wine by Joanne Harris</h1>
             <br></br>

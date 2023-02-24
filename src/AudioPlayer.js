@@ -4,8 +4,7 @@ import AudioControls from "./AudioControls";
 const AudioPlayer = ({ tracks }) => {
   const [trackIndex, setTrackIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-
-  const { title, artist, audioSrc } = tracks[trackIndex];
+  const {title, artist, audioSrc} = tracks[trackIndex];
 
   const audioRef = useRef(new Audio(audioSrc));
   const isReady = useRef(false);
@@ -26,14 +25,6 @@ const AudioPlayer = ({ tracks }) => {
     }
   };
 
-
-  // console.log(tracks[trackIndex]);
-
-    // if (title === tracks[trackIndex].title) {
-    //   tracks[trackIndex].style.fontWeight = 'bold';
-    // }
-
-
   useEffect(() => {
     if (isPlaying) {
       audioRef.current.play();
@@ -49,6 +40,7 @@ const AudioPlayer = ({ tracks }) => {
     if (isReady.current) {
       audioRef.current.play();
       setIsPlaying(true);
+      
     } else {
       isReady.current = true;
     }
@@ -65,7 +57,6 @@ const AudioPlayer = ({ tracks }) => {
         onPrevClick={toPreviousTrack}
       />
       <br></br>
-      {/* <br></br> */}
       <div id="list" style={{display: 'block'}}>
         {tracks.map((element => {
           const {title, artist, audioSrc} = element;

@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-image: linear-gradient(
       rgba(104, 37, 116, .35),
-      rgba(104, 37, 116, .85)
+      rgba(104, 37, 116, .9)
     ),
     url("/public/seamless.jpg");
   /* background-image: url('/public/seamless.jpg'); linear-gradient(rgba(103, 36, 115, 0.5), rgba(103, 36, 115, 0.5)), */
@@ -58,4 +58,9 @@ li {
 
 .row {
   --bs-gutter-x: 1.5rem;
+}
+
+.highlight {
+  color: aliceblue;
+  font-weight: bold;
 }
