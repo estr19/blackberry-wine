@@ -26,6 +26,14 @@ const AudioPlayer = ({ tracks }) => {
     }
   };
 
+
+  // console.log(tracks[trackIndex]);
+
+    // if (title === tracks[trackIndex].title) {
+    //   tracks[trackIndex].style.fontWeight = 'bold';
+    // }
+
+
   useEffect(() => {
     if (isPlaying) {
       audioRef.current.play();
@@ -36,7 +44,6 @@ const AudioPlayer = ({ tracks }) => {
 
   useEffect(() => {
     audioRef.current.pause();
-
     audioRef.current = new Audio(audioSrc);
 
     if (isReady.current) {
@@ -57,6 +64,16 @@ const AudioPlayer = ({ tracks }) => {
         onNextClick={toNextTrack}
         onPrevClick={toPreviousTrack}
       />
+      <br></br>
+      {/* <br></br> */}
+      <div id="list" style={{display: 'block'}}>
+        {tracks.map((element => {
+          const {title, artist, audioSrc} = element;
+          return (
+            <li key={audioSrc}>"{title}" by <i>{artist}</i></li>
+          )
+        }))}
+      </div>
     </div>
   );
 };

@@ -4,18 +4,18 @@ import song3 from './assets/Im Not in Love.mp3';
 import song4 from './assets/18 with a bullet.mp3';
 import song5 from './assets/D-I-V-O-R-C-E.mp3';
 import song6 from './assets/disco queen.mp3';
-// import song7 from './assets/disco queen.mp3';
-// import song8 from './assets/disco queen.mp3';
+import song7 from './assets/Stand_By_Your_Man.mp3';
+import song8 from './assets/Sailing.mp3';
 import song9 from './assets/The Boys Are Back In Town.mp3';
 import song10 from './assets/Good Vibrations.mp3';
-// import song11 from './assets/disco queen.mp3';
+import song11 from './assets/The_Wurzels_Combine_Harvester.mp3';
 import song12 from './assets/Hotel California.mp3';
-// import song13 from './assets/disco queen.mp3';
-// import song14 from './assets/disco queen.mp3';
+import song13 from './assets/The_Name_Of_The_Game.mp3';
+import song14 from './assets/Sex_Pistols_Pretty_Vacant.mp3';
 import song15 from './assets/Kung Fu Fighting.mp3';
 import song16 from './assets/I Feel Love.mp3';
-// import song17 from './assets/disco queen.mp3';
-// import song18 from './assets/disco queen.mp3';
+import song17 from './assets/Straighten_Out.mp3';
+import song18 from './assets/14 Way Down.mp3';
 
 
 export const tracks = [
@@ -49,16 +49,16 @@ export const tracks = [
     title: "Disco Queen",
     artist: "Hot Chocolate"
   },
-  // {
-  //   audioSrc: song7,
-  //   title: "Stand By Your Man",
-  //   artist: "Tammy Wynette"
-  // },
-  // {
-  //   audioSrc: song8,
-  //   title: "Sailing",
-  //   artist: "Rod Stewart"
-  // },
+  {
+    audioSrc: song7,
+    title: "Stand By Your Man",
+    artist: "Tammy Wynette"
+  },
+  {
+    audioSrc: song8,
+    title: "Sailing",
+    artist: "Rod Stewart"
+  },
   {
     audioSrc: song9,
     title: "The Boys Are Back in Town",
@@ -69,26 +69,26 @@ export const tracks = [
     title: "Good Vibrations",
     artist: "The Beach Boys"
   },
-  // {
-  //   audioSrc: song11,
-  //   title: "The Comdine Harvester",
-  //   artist: "The Wurzels"
-  // },
+  {
+    audioSrc: song11,
+    title: "The Combine Harvester",
+    artist: "The Wurzels"
+  },
   {
     audioSrc: song12,
     title: "Hotel California",
     artist: "Eagles"
   },
-  // {
-  //   audioSrc: song13,
-  //   title: "The Name Of The Game",
-  //   artist: "ABBA"
-  // },
-  // {
-  //   audioSrc: song14,
-  //   title: "Pretty Vacant",
-  //   artist: "Sex Pistols"
-  // },
+  {
+    audioSrc: song13,
+    title: "The Name Of The Game",
+    artist: "ABBA"
+  },
+  {
+    audioSrc: song14,
+    title: "Pretty Vacant",
+    artist: "Sex Pistols"
+  },
   {
     audioSrc: song15,
     title: "Kung Fu Fighting",
@@ -99,14 +99,14 @@ export const tracks = [
     title: "I Feel Love",
     artist: "Donna Summer"
   },
-  // {
-  //   audioSrc: song17,
-  //   title: "Straighten Out",
-  //   artist: "The Stranglers"
-  // },
-  // {
-  //   audioSrc: song18,
-  //   title: "Way Down",
-  //   artist: "Elvis Presley"
-  // },
+  {
+    audioSrc: song17,
+    title: "Straighten Out",
+    artist: "The Stranglers"
+  },
+  {
+    audioSrc: song18,
+    title: "Way Down",
+    artist: "Elvis Presley"
+  },
 ];

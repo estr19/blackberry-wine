@@ -44,10 +44,18 @@ button {
   font-family: 'Marmelad', sans-serif;
 }
 
-.container {
+.opaque {
   background-color: hsla(291, 52%, 30%,.75);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  width: fit-content;
 }
 
 li {
   list-style: none;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
 }
